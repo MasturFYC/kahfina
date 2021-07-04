@@ -1,9 +1,5 @@
 ### UPGRADE DATABASE
 
-1. Click file jarus.sql
-2. Dari sebelah kanan layar Click tombol `Raw`
-3. Copy alamat file yg ada di address bar
-
 Copy baris perintah berikut ke `terminal wsl`:
 ```bash
 cd ~
