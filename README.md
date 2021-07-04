@@ -1,10 +1,13 @@
-- 👋 Hi, I’m @kahfina
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+### UPGRADE DATABASE
 
-<!---
-kahfina/kahfina is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+1. Click file jarus.sql
+2. Dari sebelah kanan layar Click tombol `Raw`
+3. Copy alamat file yg ada di addres bar
+
+Copy bari perintah berikut ke `terminal wsl`:
+```bash
+cd ~
+curl -O https://raw.githubusercontent.com/kahfina/kahfina/main/jarus.sql jarus.sql
+sudo -postgres psql -d jakab < jarus.sql
+```
+> Kalau nanya password, ini passwordnya: `t2z00a8y`
