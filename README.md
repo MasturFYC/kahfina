@@ -2,9 +2,9 @@
 
 1. Click file jarus.sql
 2. Dari sebelah kanan layar Click tombol `Raw`
-3. Copy alamat file yg ada di addres bar
+3. Copy alamat file yg ada di address bar
 
-Copy bari perintah berikut ke `terminal wsl`:
+Copy baris perintah berikut ke `terminal wsl`:
 ```bash
 cd ~
 curl -O https://raw.githubusercontent.com/kahfina/kahfina/main/jarus.sql jarus.sql
