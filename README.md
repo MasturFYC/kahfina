@@ -10,4 +10,4 @@ cd ~
 curl -O https://raw.githubusercontent.com/kahfina/kahfina/main/jarus.sql jarus.sql
 sudo -postgres psql -d jakab < jarus.sql
 ```
-> Kalau nanya password, ini passwordnya: `t2z00a8y`
+> Kalau nanya password, ini passwordnya: `sikil`
