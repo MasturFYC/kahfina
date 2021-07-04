@@ -1,0 +1,4 @@
+cd ~
+sudo -u postgres psql -c 'drop database jakab'
+sudo -u postgres psql -c 'create database jakab'
+sudo -u postgres psql -d jakab < jakab.sql
