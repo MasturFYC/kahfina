@@ -218,6 +218,12 @@ COPY public.rcs_data (rcs_sub_title_id, id, name_id, kr, kn, is_kn, descriptions
 1	4	17	f	f	f	\N	14
 16	1	16	f	f	f	\N	14
 16	2	1	t	f	f	\N	14
+2	1	8	f	f	f	\N	17
+2	2	17	f	f	f	\N	17
+2	3	7	f	f	f	\N	17
+2	4	20	f	f	f	\N	17
+16	1	1	f	f	f	\N	17
+16	2	7	t	f	f	\N	17
 \.
 
 
@@ -475,4 +481,3 @@ ALTER TABLE ONLY public.rcs_data
 --
 -- PostgreSQL database dump complete
 --
-
